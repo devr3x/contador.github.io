@@ -1,5 +1,5 @@
 // Establecer la fecha objetivo para la cuenta atrás
-const fechaObjetivo = new Date("2024-12-31T00:00:00").getTime(); // Cambia la fecha aquí
+const fechaObjetivo = new Date("2024-10-31T00:00:00").getTime(); // Cambia la fecha aquí
 
 // Actualizar la cuenta atrás cada segundo
 const x = setInterval(function() {
@@ -47,7 +47,7 @@ function reiniciar() {
         </div>
     `;
     // Reiniciar la fecha objetivo o establecer una nueva fecha
-    const nuevaFechaObjetivo = new Date("2024-12-31T00:00:00").getTime();
+    const nuevaFechaObjetivo = new Date("2024-11-31T00:00:00").getTime();
     iniciarCuentaAtras(nuevaFechaObjetivo);
 }
 
